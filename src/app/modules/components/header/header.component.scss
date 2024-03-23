@@ -1,0 +1,16 @@
+@import "../../../../dist/scss/variaveis.scss";
+
+#headerPromo{
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: $grey;
+    span{
+        font-family: $fonte-padrao;
+        font-weight: 600;      
+        font-size: 14px;  
+        line-height: 15.23px;
+    }
+}
