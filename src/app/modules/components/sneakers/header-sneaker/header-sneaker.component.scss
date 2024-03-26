@@ -1,0 +1,23 @@
+@import "../../../../../dist/scss/variaveis.scss";
+#header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 42px;
+    gap: 16px;
+    h2{
+        font-family: $fonte-padrao;
+        color: $dark;
+        font-size: 20px;
+        line-height: 21.76px;        
+    }
+    p{
+        font-family: $fonte-secundaria;
+        color: $dark;
+        line-height: 19px;
+        font-size: 14px;
+        width: 90%;
+    }
+}

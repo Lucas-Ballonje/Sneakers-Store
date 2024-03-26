@@ -7,6 +7,7 @@ import { HeaderComponent } from './modules/components/header/header.component';
 import { HomeComponent } from './modules/home/pages/home/home.component';
 import { BannerComponent } from './modules/components/banner/banner.component';
 import { SneakersComponent } from './modules/components/sneakers/sneakers.component';
+import { HeaderSneakerComponent } from './modules/components/sneakers/header-sneaker/header-sneaker.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SneakersComponent } from './modules/components/sneakers/sneakers.compon
     HeaderComponent,
     HomeComponent,
     BannerComponent,
-    SneakersComponent
+    SneakersComponent,
+    HeaderSneakerComponent
   ],
   imports: [
     BrowserModule,
